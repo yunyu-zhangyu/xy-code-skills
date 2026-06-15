@@ -1,0 +1,134 @@
+# 项目索引 — 由 M0 自动生成，供 M4 契约生成做路径验证
+# 修改项目结构后重新运行 M0 更新此文件
+project_name: xy-cloud
+project_root: D:/ZHYwork/xy-cloud
+base_package: cn.shutan.platform
+generated: "2026-06-12"
+
+modules:
+  platform-common:
+    name: platform-common
+    path: platform-framework/platform-common
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-common/src/main/java/cn/shutan/platform/framework/common
+    package: cn.shutan.platform.framework.common
+    type: framework
+  platform-spring-boot-starter-biz-data-permission:
+    name: platform-spring-boot-starter-biz-data-permission
+    path: platform-framework/platform-spring-boot-starter-biz-data-permission
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-biz-data-permission/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-biz-ip:
+    name: platform-spring-boot-starter-biz-ip
+    path: platform-framework/platform-spring-boot-starter-biz-ip
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-biz-ip/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-biz-tenant:
+    name: platform-spring-boot-starter-biz-tenant
+    path: platform-framework/platform-spring-boot-starter-biz-tenant
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-biz-tenant/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-mybatis:
+    name: platform-spring-boot-starter-mybatis
+    path: platform-framework/platform-spring-boot-starter-mybatis
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-mybatis/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-web:
+    name: platform-spring-boot-starter-web
+    path: platform-framework/platform-spring-boot-starter-web
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-web/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-security:
+    name: platform-spring-boot-starter-security
+    path: platform-framework/platform-spring-boot-starter-security
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-security/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-redis:
+    name: platform-spring-boot-starter-redis
+    path: platform-framework/platform-spring-boot-starter-redis
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-redis/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-mq:
+    name: platform-spring-boot-starter-mq
+    path: platform-framework/platform-spring-boot-starter-mq
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-mq/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-job:
+    name: platform-spring-boot-starter-job
+    path: platform-framework/platform-spring-boot-starter-job
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-job/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-excel:
+    name: platform-spring-boot-starter-excel
+    path: platform-framework/platform-spring-boot-starter-excel
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-excel/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-spring-boot-starter-rpc:
+    name: platform-spring-boot-starter-rpc
+    path: platform-framework/platform-spring-boot-starter-rpc
+    src_main_java: D:/ZHYwork/xy-cloud/platform-framework/platform-spring-boot-starter-rpc/src/main/java/cn/shutan/platform/framework
+    package: cn.shutan.platform.framework
+    type: framework
+  platform-gateway:
+    name: platform-gateway
+    path: platform-gateway
+    src_main_java: D:/ZHYwork/xy-cloud/platform-gateway/src/main/java/cn/shutan/platform/gateway
+    package: cn.shutan.platform.gateway
+    type: gateway
+  platform-module-system-api:
+    name: platform-module-system-api
+    path: platform-module-system/platform-module-system-api
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-system/platform-module-system-api/src/main/java/cn/shutan/platform/module/system
+    package: cn.shutan.platform.module.system
+    type: business
+  platform-module-system-biz:
+    name: platform-module-system-biz
+    path: platform-module-system/platform-module-system-biz
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-system/platform-module-system-biz/src/main/java/cn/shutan/platform/module/system
+    package: cn.shutan.platform.module.system
+    type: business
+  platform-module-infra-api:
+    name: platform-module-infra-api
+    path: platform-module-infra/platform-module-infra-api
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-infra/platform-module-infra-api/src/main/java/cn/shutan/platform/module/infra
+    package: cn.shutan.platform.module.infra
+    type: business
+  platform-module-infra-biz:
+    name: platform-module-infra-biz
+    path: platform-module-infra/platform-module-infra-biz
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-infra/platform-module-infra-biz/src/main/java/cn/shutan/platform/module/infra
+    package: cn.shutan.platform.module.infra
+    type: business
+  platform-module-eos-api:
+    name: platform-module-eos-api
+    path: platform-module-eos/platform-module-eos-api
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-eos/platform-module-eos-api/src/main/java/cn/shutan/platform/module/eos
+    package: cn.shutan.platform.module.eos
+    type: business
+  platform-module-eos-biz:
+    name: platform-module-eos-biz
+    path: platform-module-eos/platform-module-eos-biz
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-eos/platform-module-eos-biz/src/main/java/cn/shutan/platform/module/eos
+    package: cn.shutan.platform.module.eos
+    type: business
+  platform-module-eos-demand-response-api:
+    name: platform-module-eos-demand-response-api
+    path: platform-module-eos-demand-response/platform-module-eos-demand-response-api
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-eos-demand-response/platform-module-eos-demand-response-api/src/main/java/cn/shutan/platform/module/eos/demandresponse
+    package: cn.shutan.platform.module.eos.demandresponse
+    type: business
+  platform-module-eos-demand-response-diz:
+    name: platform-module-eos-demand-response-diz
+    path: platform-module-eos-demand-response/platform-module-eos-demand-response-diz
+    src_main_java: D:/ZHYwork/xy-cloud/platform-module-eos-demand-response/platform-module-eos-demand-response-diz/src/main/java/cn/shutan/platform/module/eos/demandresponse
+    package: cn.shutan.platform.module.eos.demandresponse
+    type: business
